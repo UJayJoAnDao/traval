@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    /* max-height: 50px;*/
+    font-size: 30px;
+    transition: 0.2s;
+}
+nav li{/*nav li設定*/
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline;
+    padding: 6px 20px;
+}
+nav h1{
+    color: yellow;
+}
+nav li:hover{
+    background: green;
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.marginauto{
+    margin: 10px auto 20px;
+    display: block;
+}
+/*
+nav li{
+    font-size: 30px;
+    color: rgb(110, 92, 70);
+    display: inline;
+}
+*/
